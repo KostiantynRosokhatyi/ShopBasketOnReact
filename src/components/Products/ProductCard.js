@@ -1,14 +1,11 @@
-import React, {useState} from 'react'
+import React from 'react'
+import styles from './ProductStyle.module.css'
 
-
-function ProductCard() {
-
+function ProductCard (props) {
+    const {product} = props
     return (
-        <div>
-
-        </div>
+        <div>{product}</div>
     )
-
 }
 
 export default ProductCard

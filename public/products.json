@@ -2,16 +2,19 @@
   {
     "id": "a1sdf2343",
     "name": "Bananas",
-    "price": "10"
+    "price": "10",
+    "icon": "https://pngicon.ru/file/uploads/banan.png"
   },
   {
     "id": "a2s2sdf32332",
     "name": "Apples",
-    "price": "8"
+    "price": "8",
+    "icon": "https://pngicon.ru/file/uploads/2_50.png"
   },
   {
     "id": "sd1afr4353",
     "name": "Papaya",
-    "price": "10"
+    "price": "10",
+    "icon": "https://i.pinimg.com/originals/ff/1b/44/ff1b443c83854401d9f7e2b41e252132.png"
   }
 ]
