@@ -17,9 +17,11 @@ function App() {
             }
         )
             .then(function (response) {
+                console.log(response)
                 return response.json();
             })
             .then(function (myJson) {
+                console.log(myJson);
                 setProductData(myJson);
             });
     }
@@ -27,7 +29,7 @@ function App() {
         getData()
     }, [])
 
-    const tes = (value,status)=> {
+    const tes= (value,status)=> {
         setList(value);
         setStatusOfBasket(status);
     }

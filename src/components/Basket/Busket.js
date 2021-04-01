@@ -4,7 +4,6 @@ import TopBar from "../topBar/TopBar";
 
 function Basket(props) {
     const [emptyCartOrNot, setEmptyCartOrNot] = useState(props.statusOfBasket);
-    const [inputValue, setInputValue] = useState(1);
     const [listOfProducts, setListOfProducts] = useState(props.list);
     const [totalCost, setTotalCost] = useState(0);
 
@@ -19,7 +18,7 @@ function Basket(props) {
     const handleChange = (e) => {
         const valueKG = e.target.value;
         const nameOfPrd = e.target.id;
-        setInputValue(valueKG);
+
 
         if(nameOfPrd === "Bananas"){
             setBananaSum(bb(valueKG,30,10))

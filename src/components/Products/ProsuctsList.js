@@ -23,7 +23,7 @@ function ProductsList(props) {
 
     return (
         <div>
-            <NavLink to='/basket'> <div className={styles.fullCartHide} id="123"/></NavLink>
+            <NavLink to='/basket'> <div className={styles.fullCartHide} id="123" /></NavLink>
             <TopBar header="Shop the products" basketValues={basketValues}/>
             <div className={styles.productBox}>
                 {[...productData].map((contact: ({id: string | number | null | undefined; name: any; price: any; icon: any; }))  =>
