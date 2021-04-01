@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ShopBasketOnReact/static/css/main.445dafb4.chunk.css",
-    "main.js": "/ShopBasketOnReact/static/js/main.7ca514f5.chunk.js",
-    "main.js.map": "/ShopBasketOnReact/static/js/main.7ca514f5.chunk.js.map",
+    "main.js": "/ShopBasketOnReact/static/js/main.26a49297.chunk.js",
+    "main.js.map": "/ShopBasketOnReact/static/js/main.26a49297.chunk.js.map",
     "runtime-main.js": "/ShopBasketOnReact/static/js/runtime-main.46946875.js",
     "runtime-main.js.map": "/ShopBasketOnReact/static/js/runtime-main.46946875.js.map",
     "static/js/2.c8c93e99.chunk.js": "/ShopBasketOnReact/static/js/2.c8c93e99.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.46946875.js",
     "static/js/2.c8c93e99.chunk.js",
     "static/css/main.445dafb4.chunk.css",
-    "static/js/main.7ca514f5.chunk.js"
+    "static/js/main.26a49297.chunk.js"
   ]
 }
